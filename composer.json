@@ -2,7 +2,8 @@
   "require" : {
     "silex/silex": "~1.1",
     "monolog/monolog": "~1.7",
-    "twig/twig": "~1.18"
+    "twig/twig": "~1.18",
+    "herrera-io/silex-pdo": "@dev"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
