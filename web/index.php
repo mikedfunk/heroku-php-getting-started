@@ -1,5 +1,7 @@
 <?php
 
+use Herrera\Pdo\PdoServiceProvider;
+
 require('../vendor/autoload.php');
 
 $app = new Silex\Application();
