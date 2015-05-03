@@ -25,7 +25,7 @@ $app->register(
 
 $app->get('/', function () use ($app) {
     $app['monolog']->addDebug('logging output.');
-    return 'Hello';
+    return str_repeat('Hello', getenv('TIMES'));
 });
 
 $app->get('/twig/{name}', function ($name) use ($app) {
