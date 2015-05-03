@@ -1,8 +1,8 @@
 <p>Got these rows from the db:</p>
 
 <ul>
-{% for thisname in names %}
-  <li>{% thisname.name %}</li>
+{% for name in names %}
+  <li>{{ name.name }}</li>
 {% else %}
   <li>Nameless!</li>
 {% endfor %}
